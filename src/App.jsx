@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="main">
       <img src={va} alt="" id="Googli" />
-      <span>I'm Googli,Your Advanced Virtual Assistant</span>
+      <span>I'm Googli,Your Advanced Virtual Assistant  hi hihihih</span>
       {!speaking?  <button onClick={() => {
         setPrompt("listening...")
         setSpeaking(true)
